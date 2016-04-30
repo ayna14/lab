@@ -1,0 +1,14 @@
+﻿<div class="row">
+    <form action="/Home/About" method="post">
+        <table>
+            @{
+                foreach (var t in ViewBag.Lines)
+                {
+                    <tr><td>@t</td></tr>
+                }
+            }
+        </table>
+
+    </form>
+
+</div>
